@@ -1,14 +1,21 @@
-/* Styles for the navigation bar */
-.navigation-header {
+.nav {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
+    background-color: pink;
 }
 
 .nav-item {
     position: relative;
     padding: 10px;
+    color: black;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000;
+    display: block;
 }
 
 .sub-menu {
@@ -16,10 +23,16 @@
     position: absolute;
     left: 0;
     top: 100%;
-    background: #fff;
+    background-color: pink;
+    background: pink;
+    color: black;
     padding: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
+  
 .nav-item:hover .sub-menu {
     display: block;
 }
